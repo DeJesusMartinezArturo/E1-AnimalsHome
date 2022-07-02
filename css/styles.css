@@ -1,0 +1,63 @@
+
+.img{
+    width: 20;
+}
+.contenedor{
+    padding-left: 3rem;
+}
+
+.link{
+    text-decoration: none;
+    color: #048ABF;
+
+}
+
+
+/**formulario**/
+.formulario{
+    background-color:white;
+    width: min(30rem, 100%);
+    margin: left;
+    padding: 2rem;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    
+}
+.formulario legend{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: black;
+}
+.campo{
+    margin-bottom: 1rem;
+
+}
+.campo label{
+color: black;
+font-weight: bold;
+margin-bottom: .5rem;
+display: block;
+}
+.input-text{
+    width: 100%;
+    border: none;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.boton{
+    background-color: #8FBF26;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: .5rem;
+    width: 50%;
+    text-align: center;
+    padding-right: 3rem;
+}
