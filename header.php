@@ -7,8 +7,8 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="./index.php" class="brand-logo">Animal's Home</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="./index.php">Inicio</a></li>
-        <li><a href="./citas.php">Servicios</a></li>
+        <li><a href="./index.php">INICIO</a></li>
+        <li><a href="./citas.php">SERVICIOS</a></li>
         <li><a href="./login.php"><i class="material-icons medium">account_circle</i></a></li>
       </ul>
 
@@ -21,3 +21,10 @@
     </div>
   </nav>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+</script>

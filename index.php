@@ -70,7 +70,7 @@ include("header.php");
 <!-- Imagen Circular -->
         <img class="circle"src="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="300px">
         <h2>Animal's Home</h2>
-        <p>Es una empresa dedicada al cuidado de las mascotas, los servicios que ofrecemos incluyen consultas generalesy cuidados estéticos. Nuestro grupo de trabajo comparte valores y principios éticos de respeto, responsabilidad y compromiso de nuestros clientes, entregado calidad y satisfacción de nuestros servicios.</p>
+        <p>Es una empresa dedicada al cuidado de las mascotas, los servicios que ofrecemos incluyen consultas generales y cuidados estéticos. Nuestro grupo de trabajo comparte valores y principios éticos de respeto, responsabilidad y compromiso de nuestros clientes, entregado calidad y satisfacción de nuestros servicios.</p>
     </div>
   </div>
 </div>

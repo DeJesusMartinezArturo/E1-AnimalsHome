@@ -57,6 +57,7 @@
             <div class="d-grid">
                 <button type="submit" class="btn btn-primary">Crear cuenta</button>
             </div>
+            <br>
             <div class="my-3">
                 <span><a href="./login.php">Volver </a></span>
            </div>
