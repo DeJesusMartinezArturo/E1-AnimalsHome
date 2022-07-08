@@ -7,14 +7,14 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="./css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="./css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
 <body>
 <?php
 //Includes es el directorio donde estaría header.php. Puedes darle el nombre que quieras
-include("header.php");
+include("./layouts/header.php");
 ?>
 
 <div id="index-banner" class="parallax-container">
@@ -28,7 +28,7 @@ include("header.php");
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="./img/banner2.jpg" alt="Unsplashed background img 1"></div>
+  <div class="parallax"><img src="./assets/img/banner2.jpg" alt="Unsplashed background img 1"></div>
   </div>
   <div class="container">
     <div class="section">
@@ -82,12 +82,12 @@ include("header.php");
 
 <?php
 //Includes es el directorio donde estaría header.php. Puedes darle el nombre que quieras
-include("footer.php");
+include("./layouts/footer.php");
 ?>
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+  <script src="./assets/js/materialize.js"></script>
+  <script src="./assets/js/init.js"></script>
 
   </body>
 </html>
