@@ -74,7 +74,7 @@ include("./layouts/header.php");
     </div>
   </div>
 </div>
-<h2 align="center">Ubicación</h2>
+<h2 class="center">Ubicación</h2>
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241027.34299800327!2d-99.70505405207084!3d19.280094556126958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20bdcca9c72a7%3A0x98daa417ea983a96!2sClinica%20Veterinaria%20Animal%C2%B4s%20Home!5e0!3m2!1ses!2smx!4v1656112376391!5m2!1ses!2smx"
     width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
