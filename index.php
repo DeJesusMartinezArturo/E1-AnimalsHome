@@ -21,19 +21,20 @@ include("./layouts/header.php");
     <div class="section no-pad-bot">
       <div class="container">
         <br><br><br><br>
-        <h1 class="header white-text text-lighten-2">Animal's Home</h1>
+        <h1 class="header white-text text-lighten-2 floota">Animal's Home</h1>
         <hr>
         <div class="row">
-          <h5 class="header col s12 light">Veterinaria</h5>
+          <h5 class="header col s12 light avocadoCreamy">Veterinaria</h5>
         </div>
       </div>
     </div>
-  <div class="parallax"><img src="./assets/img/banner2.jpg" alt="Unsplashed background img 1"></div>
+  <div class="parallax"><img src="./assets/img/parallax.jpg" alt="Unsplashed background img 1"></div>
   </div>
   <div class="container">
     <div class="section">
 
       <!--   Icon Section   -->
+      <h2 class="center floota">Nuestro Trabajo</h2>
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
@@ -64,21 +65,19 @@ include("./layouts/header.php");
     </div>
   </div>
 
+  <h2 class="center floota">Ubicación</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30105.88023760115!2d-99.56636791025969!3d19.4022485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20bdcca9c72a7%3A0x98daa417ea983a96!2sClinica%20Veterinaria%20Animal%C2%B4s%20Home!5e0!3m2!1ses!2smx!4v1657844759298!5m2!1ses!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 <div class="black white-text center">
   <div class="container">
     <div class="section">
 <!-- Imagen Circular -->
-        <img class="circle"src="https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="300px">
-        <h2>Animal's Home</h2>
+        <h2 class="floota">Animal's Home</h2>
+        <img class="circle"src="./assets/img/AnimalsHome.jpg" width="400px">
         <p>Es una empresa dedicada al cuidado de las mascotas, los servicios que ofrecemos incluyen consultas generales y cuidados estéticos. Nuestro grupo de trabajo comparte valores y principios éticos de respeto, responsabilidad y compromiso de nuestros clientes, entregado calidad y satisfacción de nuestros servicios.</p>
     </div>
   </div>
 </div>
-<h2 class="center">Ubicación</h2>
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241027.34299800327!2d-99.70505405207084!3d19.280094556126958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20bdcca9c72a7%3A0x98daa417ea983a96!2sClinica%20Veterinaria%20Animal%C2%B4s%20Home!5e0!3m2!1ses!2smx!4v1656112376391!5m2!1ses!2smx"
-    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 <?php
 //Includes es el directorio donde estaría header.php. Puedes darle el nombre que quieras

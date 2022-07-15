@@ -42,14 +42,12 @@
                             <input type="password" class="form-control" name="password">
                        </div>
                        <div class="d-grid" >
-                           <button type="submit" class="btn btn-primary" >Iniciar Sesión</button>
+                         <a class="btn btn-primary" href="../paneladmin/index.html">Iniciar Sesión</a>
+                         <!-- <button type="submit" class="btn btn-primary" >Iniciar Sesión</button> -->
                         </div>
                       
                        <div class="my-3">
-                            <span>Aún no tienes cuenta? <a href="./components/cuenta.php">Registrate</a></span>
-                       </div>
-                       <div class="my-3">
-                            <span>Administrador <a href="../paneladmin/index.html">Iniciar sesion</a></span>
+                            <span>Aún no tienes cuenta? <a href="cuenta.php">Registrate</a></span>
                        </div>
                     </form>
                  </div>

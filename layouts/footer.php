@@ -1,11 +1,13 @@
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="./assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="./assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 <footer class="page-footer grey darken-3">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h3 class="white-text">Animal's Home</h3>
+                <h3 class="white-text dominiko">Animal's Home</h3>
                 <p class="grey-text text-lighten-4">Horarios de atención al cliente online: </br> de Lunes - Viernes </br> de 7:00 - 14:00 </p>
               </div>
               <div class="col l4 offset-l2 s12">

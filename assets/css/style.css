@@ -6,6 +6,48 @@
  * Made By MaterializeCSS.com
  */
 
+@font-face {
+  font-family: 'alternativeGothic';
+  src: url(./fonts/AlternateGothic2BT.ttf);
+}
+
+.alternativeGothic{font-family: 'alternativeGothic'}
+
+@font-face {
+  font-family: 'alwaysLovely';
+  src: url(./fonts/AlwaysLovely.ttf);
+}
+
+.alwaysLovely{font-family: 'alwaysLovely';}
+
+@font-face {
+  font-family: 'avocadoCreamy';
+  src: url(./fonts/Avocado_Creamy.ttf);
+}
+
+.avocadoCreamy{font-family: 'avocadoCreamy';}
+
+@font-face {
+  font-family: 'dominiko';
+  src: url(./fonts/Dinomiko.otf);
+}
+
+.dominiko{font-family: 'dominiko';}
+
+@font-face {
+  font-family: 'floota';
+  src: url(./fonts/FLOTTA.otf);
+}
+
+.floota{font-family: 'floota';}
+
+@font-face {
+  font-family: 'rebelkids';
+  src: url(./fonts/Rebe_lKids.ttf);
+}
+
+.rebelkids{font-family: 'rebelkids';}
+
 nav ul a,
 nav .brand-logo {
   color: white;
