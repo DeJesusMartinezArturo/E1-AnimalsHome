@@ -11,7 +11,7 @@
             </a>
             <ul class="right hide-on-med-and-down">
               <li><a href="../index.php">INICIO</a></li>
-              <li><a href="./components/login.php">SERVICIOS</a></li>
+              <li><a href="./components/servicios.php">SERVICIOS</a></li>
               <li><a href="./components/login.php"><i class="material-icons medium">account_circle</i></a></li>
             </ul>
           </div>
