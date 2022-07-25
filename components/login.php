@@ -42,7 +42,7 @@
                             <input type="password" class="form-control" name="password">
                        </div>
                        <div class="d-grid" >
-                         <a class="btn btn-primary" href="../paneladmin/index.html">Iniciar Sesión</a>
+                         <a class="btn btn-primary" href="../paneladmin/index.php">Iniciar Sesión</a>
                          <!-- <button type="submit" class="btn btn-primary" >Iniciar Sesión</button> -->
                         </div>
                       
