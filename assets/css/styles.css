@@ -95,8 +95,6 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 1rem;
-
-
     }
 }
 
@@ -131,5 +129,6 @@
     font-size: large;
     border-color: #E50D3C;
     width: 30%;
+    padding-bottom: 4rem;
 
 }
