@@ -8,16 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="./assets/css/s.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <meta charset="utf-8">
-    <link href="../assets/css/styles.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="../assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="../assets/css/styles.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
 <?php
 //Includes es el directorio donde estaría header.php. Puedes darle el nombre que quieras
     include("../layouts/header.php");
-    ?>
+?>
 
 <body class="seccion">
 <div class="seccion">

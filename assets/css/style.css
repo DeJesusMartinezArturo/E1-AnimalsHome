@@ -97,3 +97,14 @@ p {
 footer.page-footer {
   margin: 0;
 }
+.seccion {
+  text-align: center;
+}
+
+@media(min-width: 768px) {
+  .servicios {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 1rem;
+  }
+}
