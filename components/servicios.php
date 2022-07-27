@@ -61,7 +61,7 @@
   <div class="card-header">
   Nuevo
   </div>
-  <img class="card-img-top" src="/assets/img/promo1.png" alt="Card image cap">
+  <img class="card-img-top" src="../assets/img/promo1.png" alt="Card image cap">
   <div class="card-body ">
     <p class="card-text">Croquetas para perros adultos de razas grandes, con ingredientes seleccionados para aportar una alimentación completa y equilibrada para minimizar los efectos del envejecimiento.
 </p>
@@ -75,7 +75,7 @@
   <div class="card-header">
   Nuevo
   </div>
-  <img class="card-img-top" src="/assets/img/promo3.png" alt="Card image cap">
+  <img class="card-img-top" src="../assets/img/promo3.png" alt="Card image cap">
   <div class="card-body ">
     <p class="card-text">Nuevas bolsas de puerta limpias + 360 bolsas higiénicas para caca de perros</p>
     <a href="#" class="btn btn-primary">Ver</a>
@@ -88,7 +88,7 @@
   <div class="card-header bg-warning" >
   ¡Super Precio!
   </div>
-  <img class="card-img-top" src="/assets/img/promo2.png" alt="Card image cap">
+  <img class="card-img-top" src="../assets/img/promo2.png" alt="Card image cap">
   <div class="card-body ">
     <p class="card-text">El transportín Robustus de Outech es un artículo con doble cerradura para llevar con total seguridad a tu mascota en el coche. </p>
     <a href="#" class="btn btn-primary">Reservar</a>
@@ -166,10 +166,7 @@
     </div>
 
     
-    <div class="col-sm-12 ">
-      <a href="../components/login.php" class="btn btn-primary ">Volver &raquo; </a>
-      <a href="../components/informacion.php" class="btn btn-primary">Siguiente &raquo; </a>
-    </div>
+    
 
     </div>
     <!-- Optional JavaScript -->
