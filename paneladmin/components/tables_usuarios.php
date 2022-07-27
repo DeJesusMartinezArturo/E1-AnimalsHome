@@ -23,14 +23,14 @@
         }
     </style>
 
-</head>
-
-<body id="page-top">
-
     <?php 
         include '../header_admin.php';
         include '../topbar.php';
     ?>
+
+</head>
+
+<body id="page-top">
 
     <!-- Begin Page Content -->
     <div class="container-fluid">

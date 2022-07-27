@@ -4,7 +4,8 @@
   <!-- ENCABEZADO PRINCIPAL -->
   <header>
       <?php
-      include'../layouts/header.php';
+      include '../layouts/header_s.php';
+      include 'sidebar_panel_u.php';
       ?>
     </header>
 <body>
@@ -60,4 +61,3 @@
 include '../layouts/footer.php';
 ?>
 </footer>
-

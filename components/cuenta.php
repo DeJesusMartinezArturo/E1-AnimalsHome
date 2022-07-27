@@ -23,10 +23,6 @@
 </head>
 
 <body>
-    <?php
-    //Includes es el directorio donde estaría header.php. Puedes darle el nombre que quieras
-    include("../layouts/header.php");
-    ?>
     <div class="container w-75  mt-5 rounded shadow">
         <div class="row align-items-stretch">
             <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">

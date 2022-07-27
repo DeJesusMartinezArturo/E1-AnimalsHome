@@ -28,7 +28,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="./index.php">
+                <a class="nav-link" href="index.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Panel Administrativo</span></a>
             </li>
@@ -51,8 +51,8 @@
                 <div id="paginasColap" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Acciones:</h6>
-                        <a class="collapse-item" href="register.html">Agregar</a>
-                        <a class="collapse-item" href="forgot-password.html">Modificar</a>
+                        <a class="collapse-item" href="./components/agregar_u.php">Agregar</a>
+                        <a class="collapse-item" href="./components/modificar_u.php">Modificar</a>
                         <a class="collapse-item" href="forgot-password.html">Eliminar</a>
                     </div>
                 </div>
