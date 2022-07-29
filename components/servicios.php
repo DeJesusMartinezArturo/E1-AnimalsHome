@@ -27,7 +27,7 @@
         <div class="card-body">
           <h5 class="card-title ">Desparasitacion</h5>
           <p class="card-text">COSTO: $ pesos</p>
-          <a href="#" class="btn btn-primary">Reservar</a>
+          <a href="./reservacion.php" class="btn btn-primary">Reservar</a>
         </div>
       </div>
     </div>
@@ -36,7 +36,7 @@
         <div class="card-body">
           <h5 class="card-title">Consulta Medica</h5>
           <p class="card-text">COSTO: $ pesos</p>
-          <a href="#" class="btn btn-primary">Reservar</a>
+          <a href="./reservacion.php" class="btn btn-primary">Reservar</a>
         </div>
       </div>
     </div>
@@ -45,7 +45,7 @@
         <div class="card-body">
           <h5 class="card-title">Vacunas</h5>
           <p class="card-text">COSTO: $ pesos</p>
-          <a href="#" class="btn btn-primary">Reservar</a>
+          <a href="./reservacion.php" class="btn btn-primary">Reservar</a>
         </div>
       </div>
     </div>
@@ -103,7 +103,7 @@
           </div>
           <div class="card-body">
             <p class="card-text">- Baño <br>- Secado rápido <br>- Corte Uñas <br><br>COSTO: $pesos</p>
-            <a href="#" class="btn btn-primary">Reservar</a>
+            <a href="./reservacion.php" class="btn btn-primary">Reservar</a>
           </div>
         </div>
       </div>
@@ -120,7 +120,7 @@
               estetico
               <br><br>COSTO: $pesos
             </p>
-            <a href="#" class="btn btn-primary">Reservar</a>
+            <a href="./reservacion.php" class="btn btn-primary">Reservar</a>
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@
               estetico
               <br>-Limpieza de oidos <br>- Lavado de dientes <br>- Adorno y perfume <br><br>COSTO: $pesos
             </p>
-            <a href="#" class="btn btn-primary">Reservar</a>
+            <a href="./reservacion.php" class="btn btn-primary">Reservar</a>
           </div>
         </div>
       </div>

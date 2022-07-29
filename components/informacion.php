@@ -37,7 +37,7 @@
 
     </div>
 
-    <form class="container   mt-5 rounded shadow ">
+    <form class="container card-body   mt-5 rounded shadow ">
         <div class="form-row">
             <div class="form-group">
                 <label for="inputnombre">Nombre</label>

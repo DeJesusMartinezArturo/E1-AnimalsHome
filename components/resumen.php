@@ -36,7 +36,7 @@
 
     </div>
 
-    <div class="container w-75 mt-5 rounded shadow">
+    <div class="container card-body w-75 mt-5 rounded shadow">
 
 
       <section>
