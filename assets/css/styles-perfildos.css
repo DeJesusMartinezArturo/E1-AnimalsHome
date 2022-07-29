@@ -1,0 +1,30 @@
+/*FORMULARIO*/
+form{
+    position: relative;
+    background-color: gray;
+    min-width: 25rem; 
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 60%;
+    margin-top: 1px;
+    
+    }
+/*IMAGEN DEL PERRO*/
+
+    .img-perfil{
+    padding-right:1rem;
+    margin: 1%;
+    width: 100%;
+    max-width: 320px;
+    }
+
+    .dimensiones-maximas{
+        max-width: 1600px;
+    }
+
+    button{
+        width : 150px;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
