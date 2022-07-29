@@ -18,7 +18,7 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="../index.php">INICIO</a></li>
         <li><a href="../index.php">TUS CITAS</a></li>
-        <li><a href="./components/servicios.php">AGENDAR</a></li> 
+        <li><a href="../components/reservacion.php">AGENDAR</a></li> 
         <!-- Dropdown Trigger -->
         <li><a href="#" class="dropdown-trigger" data-target="id_drop">USUARIO<i class="material-icons right">account_circle</i></a></li>
       </ul>
