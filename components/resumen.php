@@ -1,70 +1,84 @@
-<!DOCTYPE html>
-<html lang="es">
-
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
   <title>Resumen</title>
-  <link href="./assets/css/s.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <meta charset="utf-8">
-  <link href="../assets/css/styles.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="../assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="../assets/css/styles.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="../assets/css/styles.css" rel="stylesheet" />
+  <?php
+  //Includes es el directorio donde estaría header.php. Puedes darle el nombre que quieras
+  include("../layouts/header_s.php");
+  ?>
 </head>
-<?php
-//Includes es el directorio donde estaría header.php. Puedes darle el nombre que quieras
-include("../layouts/header.php");
-?>
-
 
 <body class="seccion">
-  <div class="contenedor-citas">
-    <h1 class="nombre-pagina">Reservacion</h1>
-    <p class="descripcion-pagina">Información acerca de la reservación</p>
 
-  </div>
+  <div">
+    <h1>Reservación</h1>
+    <p>Información acerca de la reservación</p>
+    </div>
 
-  <div>
-    <nav class="tabs ">
-      <button type="button" data-paso="1">Servicios</button>
-      <button type="button" data-paso="2">Información Cita</button>
-      <button type="button" data-paso="3">Resumen</button>
-    </nav>
-    <section>
-      <form class="formulario-resumen">
-        <label for="">Paquete</label>
-        <input type="text">
-        <label for="">Precio</label>
-        <input type="text">
-      </form>
+    <!-- Navegacin-->
+    <div class="servicios container px-lg-  pt-4 btn-group" role="group" aria-label="">
+      <input type="checkbox" class="btn-check" id="btncheck1">
+      <a class="boton btn-outline-danger" for="btncheck1" href="reservacion.php">Servicios</a></span>
 
-    </section>
-    <h2 class="seccion-resumen">Resumen de la Cita</h2>
-    <form class="formulario-resumen">
-      <section>
-        <label for="nombre">Nombre</label>
-        <input id="nombre" type="text" />
+      <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+      <a class="boton btn-outline-danger" for="btncheck2" href="informacion.php">Información Cita</a></span>
 
-        <label for="fecha">Fecha</label>
-        <input id="fecha" type="date" />
-
-        <label for="hora">Hora</label>
-        <input id="hora" type="time" />
-      </section>
-      <div class="d-grid">
-        <button type="submit" class="boton-resumen">Enviar información</button>
-      </div>
-    </form>
-
-    <div class="navegacion">
-      <button><a href="../components/informacion.php">Volver &raquo; </a></button>
-      <button><a href="../components/login.php">salir &raquo; </a></button>
+      <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+      <a class="boton btn-outline-danger" for="btncheck3" href="resumen.php">Resumen</a></span>
 
     </div>
-  </div>
+
+    <div class="container w-75 mt-5 rounded shadow">
+
+
+      <section>
+        <form class="formulario-resumen">
+          <label for="">Paquete</label>
+          <input type="text">
+          <label for="">Precio</label>
+          <input type="text">
+        </form>
+
+      </section>
+      <h2 class="seccion-resumen">Resumen de la Cita</h2>
+      <form class="formulario-resumen">
+        <section>
+          <label for="nombre">Nombre</label>
+          <input id="nombre" type="text" />
+
+          <label for="fecha">Fecha</label>
+          <input id="fecha" type="date" />
+
+          <label for="hora">Hora</label>
+          <input id="hora" type="time" />
+        </section>
+
+        <div class="d-grid">
+          <a class="btn btn-primary" href="../index.php"> Agendar </a>
+
+        </div>
+
+    </div>
+
+    <div class="servicios container px-lg-6  pt-4 btn-group" role="group">
+      <input type="checkbox" class="btn-check" id="btncheck10" autocomplete="off">
+      <a class="boton btn-outline-danger" for="btncheck1" href="reservacion.php">Atrás</a></span>
+
+      <input type="checkbox"><label class=""></label>
+
+    </div>
+
+    <?php
+    //Includes es el directorio donde estaría header.php. Puedes darle el nombre que quieras
+    include("../layouts/footer.php");
+    ?>
 
 </body>
-<?php
-//Includes es el directorio donde estaría header.php. Puedes darle el nombre que quieras
-include("../layouts/footer.php");
-?>
-
-</html>
