@@ -17,7 +17,8 @@
       </a>
       <ul class="right hide-on-med-and-down">
         <li><a href="../index.php">INICIO</a></li>
-        <li><a href="../components/servicios.php">AGENDAR</a></li>
+        <li><a href="../index.php">TUS CITAS</a></li>
+        <li><a href="./components/servicios.php">AGENDAR</a></li> 
         <!-- Dropdown Trigger -->
         <li><a href="#" class="dropdown-trigger" data-target="id_drop">USUARIO<i class="material-icons right">account_circle</i></a></li>
       </ul>
@@ -26,9 +27,10 @@
 </div>
 
   <ul class="sidenav" id="mobile-demo">
+    <li><a href="../index.php"><i class="material-icons">home</i> Inicio</a></li>
     <li><a href="../components/informacion.php"><i class="material-icons">account_circle</i>Mi cuenta</a></li>
     <li><a href="./components/login.php"><i class="material-icons">star</i> Agendar</a></li>
-    <li><a href="../index.php"><i class="material-icons">home</i> Inicio</a></li>
+    <li><a href="../index.php"><i class="material-icons">calendar_month</i> Tus citas</a></li>
     <li class="divider"></li>
     <li><a href="../components/login.php"><i class="material-icons">logout</i>Salir</a></li>
   </ul>
