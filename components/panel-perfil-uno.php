@@ -11,7 +11,7 @@
 <!-- ENCABEZADO PRINCIPAL -->
   <header>
       <?php
-      include'../layouts/header.php';
+      include'../layouts/header_s.php';
       ?>
     </header>
     <!-- TITULOS/COL = COLUMNAS, -3 ES EL TAMAÑO  -->

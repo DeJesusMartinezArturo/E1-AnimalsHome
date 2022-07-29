@@ -17,11 +17,11 @@
 </head>
 
 
-<body class="seccion">
+<body >
 
     <div class="p-2">
-        <h1>Reservación</h1>
-        <p>Información acerca de la reservación</p>
+        <h1 class="text-center">Reservación</h1>
+        <p class="text-center">Información acerca de la reservación</p>
     </div>
 
     <!-- Navegacin-->

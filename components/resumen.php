@@ -16,11 +16,11 @@
   ?>
 </head>
 
-<body class="seccion">
+<body>
 
   <div">
-    <h1>Reservación</h1>
-    <p>Información acerca de la reservación</p>
+    <h1 class="text-center">Reservación</h1>
+    <p class="text-center">Información acerca de la reservación</p>
     </div>
 
     <!-- Navegacin-->
@@ -37,7 +37,6 @@
     </div>
 
     <div class="container card-body w-75 mt-5 rounded shadow">
-
 
       <section>
         <form class="formulario-resumen">

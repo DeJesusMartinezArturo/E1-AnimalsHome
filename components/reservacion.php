@@ -16,11 +16,11 @@
 include("../layouts/header_s.php");
 ?>
 
-<body class="seccion">
+<body >
 
     <div">
-        <h1>Reservación</h1>
-        <p>Elige tus servicios a continuación</p>
+        <h1 class="text-center">Reservación</h1>
+        <p class="text-center">Elige tus servicios a continuación</p>
         </div>
 
         <!-- Navegacin-->
