@@ -109,11 +109,23 @@ footer.page-footer {
   }
 }
 
-.boton{
+.boton-ser{
   text-align: center;
   text-transform: uppercase;
     padding-bottom: 1rem;
   color: black;
+  font-size: 1rem;
+  width: 105%;
+  border:1px solid #888888;  
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+padding-top: 1rem;
+}
+.boton{
+  background-color: #E50D3C;
+  text-align: center;
+  text-transform: uppercase;
+    padding-bottom: 1rem;
+  color: white;
   font-size: 1rem;
   width: 105%;
   border:1px solid #888888;  
@@ -150,4 +162,14 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       column-gap: 1rem;
   }
 }
-
+.b-on{
+ 
+  text-align: center;
+  text-transform: uppercase;
+    padding-bottom: 1rem;
+  color: black;
+  font-size: 1rem;
+padding-top: 1rem;
+width: 100%;
+background-color: #E50D3C;
+}

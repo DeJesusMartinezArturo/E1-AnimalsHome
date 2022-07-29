@@ -26,10 +26,10 @@
     <!-- Navegacin-->
     <div class="servicios container px-lg-  pt-4 btn-group" role="group" aria-label="">
       <input type="checkbox" class="btn-check" id="btncheck1">
-      <a class="boton btn-outline-danger" for="btncheck1" href="reservacion.php">Servicios</a></span>
+      <a class="boton-ser btn-outline-danger" for="btncheck1" href="reservacion.php">Servicios</a></span>
 
       <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
-      <a class="boton btn-outline-danger" for="btncheck2" href="informacion.php">Información Cita</a></span>
+      <a class="boton-ser btn-outline-danger" for="btncheck2" href="informacion.php">Información Cita</a></span>
 
       <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
       <a class="boton btn-outline-danger" for="btncheck3" href="resumen.php">Resumen</a></span>
@@ -43,7 +43,7 @@
         <form class="formulario-resumen">
           <label for="">Paquete</label>
           <input type="text">
-          <label for="">Precio</label>
+          <label for="">Total</label>
           <input type="text">
         </form>
 
@@ -68,7 +68,7 @@
 
     </div>
 
-    <div class="servicios container px-lg-6  pt-4 btn-group" role="group">
+    <div class=" servicios container px-lg-6  pt-4 btn-group" role="group">
       <input type="checkbox" class="btn-check" id="btncheck10" autocomplete="off">
       <a class="boton btn-outline-danger" for="btncheck1" href="reservacion.php">Atrás</a></span>
 
@@ -76,9 +76,11 @@
 
     </div>
 
-    <?php
-    //Includes es el directorio donde estaría header.php. Puedes darle el nombre que quieras
-    include("../layouts/footer.php");
-    ?>
+    <!-- Footer-->
+    <footer class="pt-5">
+      <?php
+      include '../layouts/footer.php';
+      ?>
+    </footer>
 
 </body>
