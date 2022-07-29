@@ -65,85 +65,20 @@
                             </tr>
                         </tfoot>
                         <tbody>
+                        <?php
+                                include "../DB/databaseconnect.php";
+                                $sql = $conexion->query("select * from citas");
+                                while($datos = $sql->fetch_object()){
+                            ?>
                             <tr>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>14:50</td>
-                                <td>01</td>
-                            </tr>
-                            <tr>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>14:50</td>
-                                <td>01</td>
-                            </tr>
-                            <tr>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>14:50</td>
-                                <td>01</td>
-                            </tr>
-                            <tr>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>14:50</td>
-                                <td>01</td>
-                            </tr>
-                            <tr>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>14:50</td>
-                                <td>01</td>
-                            </tr>
-                            <tr>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>14:50</td>
-                                <td>01</td>
-                            </tr>
-                            <tr>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>14:50</td>
-                                <td>01</td>
-                            </tr>
-                            <tr>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>14:50</td>
-                                <td>01</td> 
-                            </tr>
-                            <tr>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>14:50</td>
-                                <td>01</td>
-                            </tr>
-                            <tr>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>14:50</td>
-                                <td>01</td>
-                            </tr>
-                            <tr>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>14:50</td>
-                                <td>01</td>
-                            </tr>
-                            <tr>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>14:50</td>
-                                <td>01</td>
-                            </tr>
-                            <tr>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>14:50</td>
-                                <td>01</td>
-                            </tr>
+                                <td><?= $datos->id ?></td>
+                                <td><?= $datos->fecha ?></td>
+                                <td><?= $datos->hora ?></td>
+                                <td><?= $datos->usuarioId ?></td>
 
+                            </tr>
+                            <?php  }
+                            ?>
                         </tbody>
                     </table>
                 </div>

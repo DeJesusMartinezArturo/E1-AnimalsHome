@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,6 +40,7 @@
     <?php 
         include '../header_admin.php';
         include '../topbar.php';
+        
     ?>
 
     <!-- Begin Page Content -->
@@ -66,45 +68,26 @@
                             </tr>
                         </thead>
                         <tfoot>
-                            <tr>
+                        <tr>
                                 <th>Id</th>
                                 <th>Nombre</th>
                                 <th>Precio</th>
                             </tr>
                         </tfoot>
                         <tbody>
+                            <?php
+                                include "../DB/databaseconnect.php";
+                                $sql = $conexion->query("select * from servicios");
+                                while($datos = $sql->fetch_object()){
+                            ?>
                             <tr>
-                                <td>01</td>
-                                <td>Desparasitación</td>
-                                <td>$80</td>
+                                <td><?= $datos->id ?></td>
+                                <td><?= $datos->nombre ?></td>
+                                <td><?= $datos->precio ?></td>
                             </tr>
-                            <tr>
-                                <td>02</td>
-                                <td>Consulta Medica</td>
-                                <td>$150</td>
-                            </tr>
-                            <tr>
-                                <td>03</td>
-                                <td>Vacunas</td>
-                                <td>$60</td>
-                            </tr>
-                            <tr>
-                                <td>04</td>
-                                <td>Fancy</td>
-                                <td>$200</td>
-                            </tr>
-                            <tr>
-                                <td>05</td>
-                                <td>Principe | Princesa</td>
-                                <td>$250</td>
-                            </tr>
-                            <tr>
-                                <td>06</td>
-                                <td>Rey</td>
-                                <td>$300</td>
-                            </tr>
-
-                        </tbody>
+                            <?php  }
+                            ?>
+                        </tbody>    
                     </table>
                 </div>
             </div>
@@ -147,7 +130,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <a class="btn btn-primary" href="#">Logout</a>
                 </div>
             </div>
         </div>
