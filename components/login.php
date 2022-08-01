@@ -49,7 +49,7 @@
                     </div>
 
                     <div class="my-3">
-                        <a href="cuenta.php">Registrate</a></span>
+                    <span>Aún no tienes cuenta? <a href="cuenta.php">Registrate</a></span>
                     </div>
                 </form>
             </div>
